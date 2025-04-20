@@ -1,0 +1,163 @@
+/* Let's begin by creating variables for the colors we will be using in our design. This will help us maintain consistency and make it easier to update colors in the future. */
+:root {
+    --clr-green500: hsl(158, 36%, 37%);
+    --clr-green700: hsl(158, 42%, 18%);
+    --clr-dark: hsl(212, 21%, 14%);
+    --clr-grey: hsl(228, 12%, 48%);
+    --clr-cream: hsl(30, 38%, 92%);
+    --clr-light: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: var(--clr-grey);
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.product-img {
+    width: 50%;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.product-info {
+    background-color: var(--clr-light);
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.product-type {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.product-name {
+   color: var(--clr-dark);
+}
+
+.product-prices {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 25px;
+}
+
+.price-lg {
+    color: var(--clr-green500);
+}
+
+.price-sm {
+    text-decoration: line-through;
+}
+
+.product-btn {
+    background-color: var(--clr-green500);
+    color: var(--clr-light);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.product-btn:hover {
+    background-color: var(--clr-green700);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* Styles for mobile view and Responsiveness */ 
+@media (max-width: 600px) {
+
+    body {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .card {
+        width: 350px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .product-img {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px 0px 10px 10px;
+    }
+
+    .product-img img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-info {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        gap: 20px;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+}
+
+
