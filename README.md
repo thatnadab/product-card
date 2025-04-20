@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/thatnadab/product-card)
+- Live Site URL: [Live site](https://thatnadab.github.io/product-card/)
 
 ## My process
 
@@ -89,13 +89,13 @@ The youtube videos [Learn CSS Flexbox in easy way](https://www.youtube.com/watch
 ## Author
 
 - Website - [Abu Jehonadab Agbenugocho](https://linktr.ee/thatnadab)
-- Frontend Mentor - [@tahtnadab](https://www.frontendmentor.io/profile/thatnadab)
+- Frontend Mentor - [@thatnadab](https://www.frontendmentor.io/profile/thatnadab)
 
 
 ## Acknowledgments
 
 - Inspired by modern e-commerce product card designs.
 - Created as part of the **Devcamp2025** curriculum.
-- Special appreciation to [God'swill Sekav Apya](https://github.com/SekavArielight) for organizing the free bootcampt, and [Anthony Igoche](https://github.com/OdehIgoche) our Git Gurdian for the current track of the bootcamp.
+- Special appreciation to [God'swill Sekav Apya](https://github.com/SekavArielight) for organizing the free bootcamp, and [Anthony Igoche](https://github.com/OdehIgoche) our Git Gurdian for the current track of the bootcamp.
 
 Feel free to contribute or suggest improvements!
